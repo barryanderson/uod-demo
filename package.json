@@ -1,0 +1,22 @@
+{
+  "name": "uod-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Barry Anderson <bzanderson@dundee.ac.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuidv1": "^1.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
