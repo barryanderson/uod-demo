@@ -17,6 +17,7 @@
     "uuidv1": "^1.6.14"
   },
   "devDependencies": {
+    "chalk": "^3.0.0",
     "nodemon": "^2.0.2"
   }
 }

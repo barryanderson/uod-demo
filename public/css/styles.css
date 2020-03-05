@@ -7,6 +7,7 @@
 body {
   font: 13px Helvetica, Arial;
   background-color: #fffaf4;
+  display: none;
 }
 
 form {
@@ -49,18 +50,27 @@ form button {
   float: left;
   border-radius: 5px;
   padding: 10px 15px;
-  margin: 5px;
+  margin: 5px 10px;
+  filter: drop-shadow(5px 4px 4px #cccccc);
 }
 
 #messages li {
-  background: rgba(209,226,242, 0.5);
+  background: rgba(209, 226, 242, 1);
 }
 
 #messages li:nth-child(odd) {
-  background: rgba(209,226,242, 1);
+  background: rgba(209, 226, 242, 0.7);
 }
 
 #messages li.own {
-  background: #c4ebd0;
+  background: #ddd9d6;
   float: right;
+}
+
+#messages li.join {
+  background: #c4ebd0;
+}
+
+#messages li.leave {
+  background: #f4cec3;
 }
